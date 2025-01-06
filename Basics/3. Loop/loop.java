@@ -55,6 +55,5 @@ public class loop {
             // System.out.println(k * n);
             System.out.println(n + " * " + k + " = " + (n * k));
         }
-
     }
 }
