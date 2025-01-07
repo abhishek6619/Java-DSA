@@ -1,4 +1,3 @@
-
 public class CheckPrimeOptimized {
 
     public static boolean isPrime(int n) {
