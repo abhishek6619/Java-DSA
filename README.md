@@ -1,4 +1,6 @@
-# Programming with Java
+# Intorduction to Java With DSA
+
+## Programming with Java
 
 ```bash
 Flowcharts & Pseudocode
@@ -11,7 +13,7 @@ Functions & Scope
 ```
 
 
-# Data Structures & Algorithms
+## Data Structures & Algorithms
 
 ```bash
 Arrays & 2D Arrays
@@ -29,7 +31,7 @@ Binary Trees
 Binary Search Trees
 ```
 
-# Advanced DSA
+## Advanced DSA
 
 ```bash
 Heaps (Priority Queue)
@@ -41,7 +43,7 @@ Dynamic Programming
 Segment Trees
 ```
 
-# Quant, Reasoning & Aptitude
+## Quant, Reasoning & Aptitude
 
 ```bash
 Quantitative Aptitude
