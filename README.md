@@ -119,3 +119,34 @@ public class HelloWorld {
     }
 }
 ```
+
+## Learning Resources 📖
+
+Here are some great resources to learn Java & DSA:
+
+- [📘 Java - Oracle Docs](https://docs.oracle.com/javase/tutorial/)
+- [🌐 GeeksforGeeks - Java DSA](https://www.geeksforgeeks.org/data-structures/)
+- [📺 YouTube DSA Tutorials (freeCodeCamp, CodeWithHarry, etc.)](https://www.youtube.com/results?search_query=java+dsa+tutorial)
+- 📝 <a href="https://leetcode.com/" target="_blank">LeetCode</a>,
+  <a href="https://www.codechef.com/" target="_blank">CodeChef</a>,
+  <a href="https://codeforces.com/" target="_blank">CodeForces</a>)
+
+## Contributing 🤝
+
+Contributions are welcome! Follow these steps to contribute:
+
+- Fork the repository.
+- Create a new branch (git checkout -b feature-branch).
+- Commit your changes (git commit -m "Added new topic").
+- Push to the branch (git push origin feature-branch).
+- Create a Pull Request.
+
+## License 📜
+
+This course is open-source and distributed under the MIT License.
+
+## Author 👤
+
+Abhishek Kumar Singh<br>
+
+<a href="https://github.com/abhishek6619/" target="_blank">Github</a>
