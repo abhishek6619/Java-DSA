@@ -147,6 +147,6 @@ This course is open-source and distributed under the MIT License.
 
 ## Author 👤
 
-Abhishek Kumar Singh<br>
+Abhishek Singh<br>
 
 <a href="https://github.com/abhishek6619/" target="_blank">Github</a>
