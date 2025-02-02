@@ -2,9 +2,10 @@
 
 Welcome to the **Java with Data Structures and Algorithms (DSA) Course**! 🚀 This repository is designed to help learners master Java programming along with essential DSA concepts, preparing them for coding interviews and competitive programming.
 
----
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
 ## Table of Contents 📚
+
 
 - [Introduction](#introduction)
 - [Why Learn Java & DSA?](#why-learn-java--dsa)
@@ -16,13 +17,13 @@ Welcome to the **Java with Data Structures and Algorithms (DSA) Course**! 🚀 T
 - [License](#license)
 - [Author](#author)
 
----
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
 ## Introduction 🎯
 
 This course covers both **Java programming** and **Data Structures & Algorithms (DSA)**. It is designed for beginners and intermediate learners who want to excel in software development, competitive programming, and technical interviews.
 
----
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
 ## Why Learn Java & DSA? 🤔
 
@@ -31,7 +32,7 @@ This course covers both **Java programming** and **Data Structures & Algorithms 
 ✅ **DSA is Essential** – Helps in solving complex problems efficiently.  
 ✅ **High Demand in Jobs** – Tech giants like Google, Amazon, and Microsoft test DSA skills in interviews.
 
----
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
 ## Course Outline 📖
 
@@ -78,7 +79,7 @@ The course is divided into two major sections: **Java Programming** and **Data S
 - Time & Space Complexity Analysis
 - LeetCode, CodeChef, CodeForces Problem-Solving
 
----
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0184.gif" width="1920" />
 
 ## Installation 🔧
 
