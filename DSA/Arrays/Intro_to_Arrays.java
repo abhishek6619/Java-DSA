@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Intro_to_Arrays {
 
-    @SuppressWarnings({"resource", "unused"})
+    @SuppressWarnings({"unused", "resource"})
     public static void main(String[] args) {
         int marks[] = new int[100];
 
