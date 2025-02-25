@@ -1,8 +1,13 @@
 
 public class ArraysCC {
 
-    @SuppressWarnings("unused")
+    public static void update(int marks[]) {
+        for (int i = 0; i <= marks.length; i++) {
+
+        }
+    }
+
     public static void main(String[] args) {
-        int n[] = {97, 98, 99};
+        int marks[] = {97,98,99};
     }
 }
