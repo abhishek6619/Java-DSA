@@ -1,7 +1,13 @@
 {
   "version": "0.2.0",
   "configurations": [
-    
+    {
+      "type": "java",
+      "name": "oop",
+      "request": "launch",
+      "mainClass": "OOP.oop",
+      "projectName": "Java-DSA_b01eaf80"
+    },
     {
       "type": "java",
       "name": "Main",
