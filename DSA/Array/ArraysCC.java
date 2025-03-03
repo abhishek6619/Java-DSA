@@ -10,13 +10,61 @@ public class ArraysCC {
         }
     }
 
-    public static int linearSearch(int numbers[], int key) {
+    public static int linearSearch(int numbers[], int keys) {
         for (int i = 0; i < numbers.length; i++) {
-            if (numbers[i] == key) {
+            if (numbers[i] == keys) {
                 return i;
             }
         }
         return -1;
+    }
+
+    public static int getLargest(int num[]) {
+        int largest = Integer.MIN_VALUE; // -infinity
+        int smallest = Integer.MAX_VALUE; // +infinity
+
+        for (int i = 0; i < num.length; i++) {
+            if (largest < num[i]) {
+                largest = num[i];
+            }
+            if (smallest > num[i]) {
+                smallest = num[i];
+            }
+        }
+        System.out.println("Samallest value is : " + smallest);
+        return largest;
+    }
+
+    public static int binarySearch(int n[], int key) {
+        int start = 0, end = n.length - 1;
+        while (start <= end) {
+            int mid = (start + end) / 2;
+
+            // comparisons
+            if (n[mid] == key) {
+                return mid;
+            }
+            if (n[mid] < key) { // right
+                start = mid + 1;
+            } else { // left
+                end = mid - 1;
+            }
+        }
+        return -1;
+    }
+
+    public static void reverse(int rev[]) {
+        int first = 0, last = rev.length - 1;
+
+        while (first < last) {
+            // swap
+            int temp = rev[last];
+            rev[last] = rev[first];
+            rev[first] = temp;
+
+            first++;
+            last--;
+        }
     }
 
     public static void main(String[] args) {
@@ -34,7 +82,7 @@ public class ArraysCC {
 
         // Linear Search
         int numbers[] = { 2, 4, 6, 8, 10, 12, 14, 16 };
-        // String menu[] = { "dosa", "chole bhature", "samosa" };
+        String menu[] = { "dosa", "chole bhature", "samosa" };
         int key = 20;
 
         int index = linearSearch(numbers, key);
@@ -43,5 +91,22 @@ public class ArraysCC {
         } else {
             System.out.println("Key is at index: " + index);
         }
+
+        // Largest Number
+        int num[] = { 1, 2, 6, 3, 5 };
+        System.out.println("Largest value is : " + getLargest(num));
+
+        // Binary Search
+        int n[] = { 2, 4, 6, 8, 10, 12, 14 };
+        int keys = 25;
+        System.out.println("Index for key is : " + binarySearch(n, key));
+
+        // Reverse Array
+        int rev[] = { 2, 4, 6, 8, 10 };
+        reverse(rev);
+        for (int i = 0; i < rev.length; i++) {
+            System.out.println(rev[i] + "");
+        }
+        System.out.println();
     }
 }
