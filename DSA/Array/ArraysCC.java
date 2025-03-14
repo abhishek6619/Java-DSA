@@ -81,46 +81,46 @@ public class ArraysCC {
     }
 
     public static void main(String[] args) {
-        // int marks[] = { 97, 98, 99 };
-        // int nonChangable = 5;
-        // update(marks, nonChangable);
+        int marks[] = { 97, 98, 99 };
+        int nonChangable = 5;
+        update(marks, nonChangable);
 
-        // System.out.println("nonChangable: " + nonChangable);
+        System.out.println("nonChangable: " + nonChangable);
 
         // print our marks
-        // for (int i = 0; i < marks.length; i++) {
-        // System.out.println(marks[i] + "");
-        // }
-        // System.out.println();
+        for (int i = 0; i < marks.length; i++) {
+        System.out.println(marks[i] + "");
+        }
+        System.out.println();
 
         // Linear Search
-        // int numbers[] = { 2, 4, 6, 8, 10, 12, 14, 16 };
-        // String menu[] = { "dosa", "chole bhature", "samosa" };
-        // int key = 20;
+        int numbers[] = { 2, 4, 6, 8, 10, 12, 14, 16 };
+        String menu[] = { "dosa", "chole bhature", "samosa" };
+        int key = 20;
 
-        // int index = linearSearch(numbers, key);
-        // if (index == -1) {
-        // System.out.println("Not Found");
-        // } else {
-        // System.out.println("Key is at index: " + index);
-        // }
+        int index = linearSearch(numbers, key);
+        if (index == -1) {
+        System.out.println("Not Found");
+        } else {
+        System.out.println("Key is at index: " + index);
+        }
 
         // Largest Number
-        // int num[] = { 1, 2, 6, 3, 5 };
-        // System.out.println("Largest value is : " + getLargest(num));
+        int num[] = { 1, 2, 6, 3, 5 };
+        System.out.println("Largest value is : " + getLargest(num));
 
         // Binary Search
-        // int n[] = { 2, 4, 6, 8, 10, 12, 14 };
-        // int keys = 25;
-        // System.out.println("Index for key is : " + binarySearch(n, key));
+        int n[] = { 2, 4, 6, 8, 10, 12, 14 };
+        int keys = 25;
+        System.out.println("Index for key is : " + binarySearch(n, key));
 
         // Reverse Array
-        // int rev[] = { 2, 4, 6, 8, 10 };
-        // reverse(rev);
-        // for (int i = 0; i < rev.length; i++) {
-        // System.out.println(rev[i] + "");
-        // }
-        // System.out.println();
+        int rev[] = { 2, 4, 6, 8, 10 };
+        reverse(rev);
+        for (int i = 0; i < rev.length; i++) {
+        System.out.println(rev[i] + "");
+        }
+        System.out.println();
 
         // Pair of elements
         int pairs[] = { 2, 4, 6, 8, 10 };
