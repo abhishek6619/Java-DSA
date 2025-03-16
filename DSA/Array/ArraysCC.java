@@ -80,6 +80,23 @@ public class ArraysCC {
         System.out.println("Total Pairs: " + tp);
     }
 
+    public static void printSubarrays(int sub[]) {
+        int ts = 0;
+        for (int i = 0; i < sub.length; i++) {
+            int start = i;
+            for (int j = i; j < sub.length; j++) {
+                int end = j;
+                for (int k = start; k <= end; k++) {
+                    System.out.print(sub[k] + " "); // subarray
+                }
+                ts++;
+                System.out.println();
+            }
+            System.out.println();
+        }
+        System.out.println("Total Subarrays: " + ts);
+    }
+
     public static void main(String[] args) {
         int marks[] = { 97, 98, 99 };
         int nonChangable = 5;
@@ -89,7 +106,7 @@ public class ArraysCC {
 
         // print our marks
         for (int i = 0; i < marks.length; i++) {
-        System.out.println(marks[i] + "");
+            System.out.println(marks[i] + "");
         }
         System.out.println();
 
@@ -100,9 +117,9 @@ public class ArraysCC {
 
         int index = linearSearch(numbers, key);
         if (index == -1) {
-        System.out.println("Not Found");
+            System.out.println("Not Found");
         } else {
-        System.out.println("Key is at index: " + index);
+            System.out.println("Key is at index: " + index);
         }
 
         // Largest Number
@@ -118,12 +135,16 @@ public class ArraysCC {
         int rev[] = { 2, 4, 6, 8, 10 };
         reverse(rev);
         for (int i = 0; i < rev.length; i++) {
-        System.out.println(rev[i] + "");
+            System.out.println(rev[i] + "");
         }
         System.out.println();
 
         // Pair of elements
         int pairs[] = { 2, 4, 6, 8, 10 };
         printPairs(pairs);
+
+        // Subarrays
+        int sub[] = { 2, 4, 6, 8, 10 };
+        printSubarrays(sub);
     }
 }
