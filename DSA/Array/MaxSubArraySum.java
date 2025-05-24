@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Arrays {
+public class MaxSubArraySum {
     public static void maxSubarraysSum(int sub[]) {
         int currSum = 0;
         int maxSum = Integer.MIN_VALUE;

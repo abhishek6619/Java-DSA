@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class Array {
+public class trappedRainwater {
     public static int trappedRainwater(int height[]) {
         int n = height.length;
         // calculate left max boundary - array
