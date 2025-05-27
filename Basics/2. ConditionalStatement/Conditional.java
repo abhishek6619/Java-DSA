@@ -7,6 +7,7 @@ public class Conditional {
         System.out.print("Enter Age: ");
         int age = sc.nextInt();
 
+
         if (age > 18) {
             System.out.println("Adult");
         } else {
