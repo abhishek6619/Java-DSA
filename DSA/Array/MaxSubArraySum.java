@@ -1,5 +1,6 @@
 import java.util.*;
 
+@SuppressWarnings("unused")
 public class MaxSubArraySum {
     public static void maxSubarraysSum(int sub[]) {
         int currSum = 0;
